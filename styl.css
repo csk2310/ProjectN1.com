@@ -1,0 +1,76 @@
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		body{
+				background-image: url();
+				background-size: cover;
+				background-position: center;
+				font-style: Quicksand;
+				font-family: sans-serif;
+				margin: 0;
+			}
+			nav{
+				background: rgb(0,100,0);
+				text-align: center;
+				width: 100%;
+				overflow: auto;
+			}
+			.menu-bar{
+				
+				text-align: center;
+			}
+			.menu-bar ul{
+				display: inline-flex;
+				list-style: none;
+				color: white;
+			}
+			.menu-bar ul li{
+				width: 120px;
+				margin: 15px;
+				padding: 15px;
+			}
+			.active, .menu-bar ul li:hover
+			{
+				background: #FF0000;
+				border-radius: 3px;
+			}
+			.menu-bar ul li a
+			{
+				text-decoration: none;
+				color: white;
+			}
+			.video{
+				background-size: cover;
+				background-position: center;
+			}
+			.sub-menu
+			{
+				display: none;
+			}
+			.menu-bar ul li:hover .sub-menu
+			{
+				display: block;
+				position: absolute;
+				background: rgb(0,100,0);
+				margin-top: 15px;
+				margin-left: -15px;
+			}
+			.menu-bar ul li:hover .sub-menu ul{
+				display: block;
+				margin: 10px;
+			}		
+			.menu-bar ul li:hover .sub-menu ul li
+			{
+				width:  150px;
+				padding: 10px;
+				border-bottom: 1px dotted #fff;
+				background: transparent;
+				border-radius: 0;
+				text-align: left;
+			}
+			.menu-bar ul li:hover .sub-menu ul li
+			{
+				border-bottom: none;
+			}	
