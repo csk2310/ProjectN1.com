@@ -17,6 +17,10 @@
 				width: 100%;
 				overflow: auto;
 			}
+			img{
+				width:10px;
+				height:10px;
+			}
 			.menu-bar{
 				
 				text-align: center;
